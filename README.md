@@ -1,3 +1,11 @@
+# RoadQiskit
+
+> Road Fleet: RoadQiskit — sovereign fork. BlackRoad OS, Inc.
+
+Part of the [BlackRoad OS](https://blackroad.io) ecosystem — [BlackRoad-OS-Inc](https://github.com/BlackRoad-OS-Inc)
+
+---
+
 # Qiskit
 
 [![License](https://img.shields.io/github/license/Qiskit/qiskit.svg?)](https://opensource.org/licenses/Apache-2.0) <!--- long-description-skip-begin -->
@@ -53,7 +61,7 @@ qc.cx(0, 1)         # 0th-qubit-Controlled-NOT gate on 1st qubit
 qc.cx(0, 2)         # 0th-qubit-Controlled-NOT gate on 2nd qubit
 ```
 
-This simple example creates an entangled state known as a [GHZ state](https://en.wikipedia.org/wiki/Greenberger%E2%80%93Horne%E2%80%93Zeilinger_state) $(|000\rangle + i|111\rangle)/\sqrt{2}$. It uses the standard quantum gates: Hadamard gate (`h`), Phase gate (`p`), and CNOT gate (`cx`). 
+This simple example creates an entangled state known as a [GHZ state](https://en.wikipedia.org/wiki/Greenberger%E2%80%93Horne%E2%80%93Zeilinger_state) $(|000angle + i|111angle)/\sqrt{2}$. It uses the standard quantum gates: Hadamard gate (`h`), Phase gate (`p`), and CNOT gate (`cx`). 
 
 Once you've made your first quantum circuit, choose which primitive you will use. Starting with the Sampler,
 we use `measure_all(inplace=False)` to get a copy of the circuit in which all the qubits are measured:
